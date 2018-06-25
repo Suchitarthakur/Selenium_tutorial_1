@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Log Verification Test]">
+  <test name="Log Verification Test Cases(failed)">
+    <classes>
+      <class name="com.guru.qa.test.LaunchPageTest">
+        <methods>
+          <include name="launchPageTitleTest"/>
+          <include name="clickOnMobileTabTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.guru.qa.test.LaunchPageTest -->
+      <class name="com.guru.qa.test.CartPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="cartTest"/>
+        </methods>
+      </class> <!-- com.guru.qa.test.CartPageTest -->
+      <class name="com.guru.qa.test.MobilePageTest">
+        <methods>
+          <include name="verifyMobilePageTitle"/>
+          <include name="compare_Cost_From_List_and_Details_Page_Test"/>
+          <include name="verifyprodSortTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.guru.qa.test.MobilePageTest -->
+    </classes>
+  </test> <!-- Log Verification Test Cases(failed) -->
+</suite> <!-- Failed suite [Log Verification Test] -->

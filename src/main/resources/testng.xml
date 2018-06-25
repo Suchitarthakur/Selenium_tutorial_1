@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Log Verification Test">
+<test name="Log Verification Test Cases">
+		<classes>
+			<class name="com.guru.qa.test.LaunchPageTest"></class>
+			<class name="com.guru.qa.test.MobilePageTest"></class>
+			<class name="com.guru.qa.test.CartPageTest"></class>
+			<class name="com.guru.qa.test.MyAccountPageTest"></class>
+		</classes>
+	</test>
+</suite>

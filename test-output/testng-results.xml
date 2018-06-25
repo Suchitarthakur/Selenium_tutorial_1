@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+  <reporter-output>
+    <line>
+      <![CDATA[Mouse over to accont and click on My account link]]>
+    </line>
+    <line>
+      <![CDATA[User Registration]]>
+    </line>
+    <line>
+      <![CDATA[Registartion successful with mail idskndk@sndk.com]]>
+    </line>
+    <line>
+      <![CDATA[Hello !!skamdl kdwq Your Wishlist has been shared. emailid skndk@sndk.com]]>
+    </line>
+    <line>
+      <![CDATA[Mouse over to accont and click on My account link]]>
+    </line>
+    <line>
+      <![CDATA[User Registration]]>
+    </line>
+    <line>
+      <![CDATA[Registartion successful with mail idndk@sn.com]]>
+    </line>
+    <line>
+      <![CDATA[Hello !!sdl nwlq Your Wishlist has been shared. emailid ndk@sn.com]]>
+    </line>
+    <line>
+      <![CDATA[Click on Add to Cart button for mobile Sony Xperia]]>
+    </line>
+    <line>
+      <![CDATA[Error message on Cart page is * The maximum quantity allowed for purchase is 500.]]>
+    </line>
+    <line>
+      <![CDATA[Launch Page Title is------> Home page]]>
+    </line>
+    <line>
+      <![CDATA[Product Sort by Name
+]]>
+    </line>
+    <line>
+      <![CDATA[Product name is : IPHONE]]>
+    </line>
+    <line>
+      <![CDATA[Product name is : SAMSUNG GALAXY]]>
+    </line>
+    <line>
+      <![CDATA[Product name is : SONY XPERIA]]>
+    </line>
+    <line>
+      <![CDATA[Product Sort by Position
+]]>
+    </line>
+    <line>
+      <![CDATA[Product name is : SONY XPERIA]]>
+    </line>
+    <line>
+      <![CDATA[Product name is : IPHONE]]>
+    </line>
+    <line>
+      <![CDATA[Product name is : SAMSUNG GALAXY]]>
+    </line>
+    <line>
+      <![CDATA[Product Sort by Price
+]]>
+    </line>
+    <line>
+      <![CDATA[Product name is : SONY XPERIA]]>
+    </line>
+    <line>
+      <![CDATA[Product name is : SAMSUNG GALAXY]]>
+    </line>
+    <line>
+      <![CDATA[Product name is : IPHONE]]>
+    </line>
+    <line>
+      <![CDATA[Mobile Price  : $100.00]]>
+    </line>
+    <line>
+      <![CDATA[click on Mobile Xperia]]>
+    </line>
+    <line>
+      <![CDATA[Price on Details page is $100.00]]>
+    </line>
+  </reporter-output>
+  <suite name="Log Verification Test" duration-ms="125971" started-at="2018-06-25T13:44:01Z" finished-at="2018-06-25T13:46:07Z">
+    <groups>
+    </groups>
+    <test name="Log Verification Test Cases" duration-ms="125971" started-at="2018-06-25T13:44:01Z" finished-at="2018-06-25T13:46:07Z">
+      <class name="com.guru.qa.test.MyAccountPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.guru.qa.test.MyAccountPageTest@17d0008]" name="setUp" is-config="true" duration-ms="10311" started-at="2018-06-25T13:44:02Z" finished-at="2018-06-25T13:44:12Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Mouse over to accont and click on My account link]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createAccount_shareWishlistTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.guru.qa.test.MyAccountPageTest@17d0008]" name="createAccount_shareWishlistTest" duration-ms="8342" started-at="2018-06-25T13:44:12Z" description="Create New Account and Share wishlist and Remove Item from wishList" data-provider="getGuruMyAccountPageData" finished-at="2018-06-25T13:44:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[skamdl]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kdwq]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[skndk@sndk.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[User Registration]]>
+            </line>
+            <line>
+              <![CDATA[Registartion successful with mail idskndk@sndk.com]]>
+            </line>
+            <line>
+              <![CDATA[Hello !!skamdl kdwq Your Wishlist has been shared. emailid skndk@sndk.com]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createAccount_shareWishlistTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.guru.qa.test.MyAccountPageTest@17d0008]" name="tearDown" is-config="true" duration-ms="624" started-at="2018-06-25T13:44:20Z" finished-at="2018-06-25T13:44:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.guru.qa.test.MyAccountPageTest@17d0008]" name="setUp" is-config="true" duration-ms="8102" started-at="2018-06-25T13:44:21Z" finished-at="2018-06-25T13:44:29Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Mouse over to accont and click on My account link]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createAccount_shareWishlistTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.guru.qa.test.MyAccountPageTest@17d0008]" name="createAccount_shareWishlistTest" duration-ms="7731" started-at="2018-06-25T13:44:29Z" description="Create New Account and Share wishlist and Remove Item from wishList" data-provider="getGuruMyAccountPageData" finished-at="2018-06-25T13:44:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sdl]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[nwlq]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ndk@sn.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[User Registration]]>
+            </line>
+            <line>
+              <![CDATA[Registartion successful with mail idndk@sn.com]]>
+            </line>
+            <line>
+              <![CDATA[Hello !!sdl nwlq Your Wishlist has been shared. emailid ndk@sn.com]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createAccount_shareWishlistTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.guru.qa.test.MyAccountPageTest@17d0008]" name="tearDown" is-config="true" duration-ms="624" started-at="2018-06-25T13:44:37Z" finished-at="2018-06-25T13:44:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.guru.qa.test.MyAccountPageTest -->
+      <class name="com.guru.qa.test.MobilePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.guru.qa.test.MobilePageTest@1341870]" name="setUp" is-config="true" duration-ms="8993" started-at="2018-06-25T13:44:38Z" finished-at="2018-06-25T13:44:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyMobilePageTitle()[pri:1, instance:com.guru.qa.test.MobilePageTest@1341870]" name="verifyMobilePageTitle" duration-ms="16" started-at="2018-06-25T13:44:46Z" description="verify Mobile Page title" finished-at="2018-06-25T13:44:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMobilePageTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.guru.qa.test.MobilePageTest@1341870]" name="tearDown" is-config="true" duration-ms="623" started-at="2018-06-25T13:44:47Z" finished-at="2018-06-25T13:44:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.guru.qa.test.MobilePageTest@1341870]" name="setUp" is-config="true" duration-ms="9432" started-at="2018-06-25T13:45:20Z" finished-at="2018-06-25T13:45:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyprodSortTest(java.lang.String)[pri:2, instance:com.guru.qa.test.MobilePageTest@1341870]" name="verifyprodSortTest" duration-ms="1024" started-at="2018-06-25T13:45:30Z" description="verify product sort by Name" data-provider="getGuruMobilePageData" finished-at="2018-06-25T13:45:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Name]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Product Sort by Name
+]]>
+            </line>
+            <line>
+              <![CDATA[Product name is : IPHONE]]>
+            </line>
+            <line>
+              <![CDATA[Product name is : SAMSUNG GALAXY]]>
+            </line>
+            <line>
+              <![CDATA[Product name is : SONY XPERIA]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyprodSortTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.guru.qa.test.MobilePageTest@1341870]" name="tearDown" is-config="true" duration-ms="614" started-at="2018-06-25T13:45:31Z" finished-at="2018-06-25T13:45:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.guru.qa.test.MobilePageTest@1341870]" name="setUp" is-config="true" duration-ms="9312" started-at="2018-06-25T13:45:32Z" finished-at="2018-06-25T13:45:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyprodSortTest(java.lang.String)[pri:2, instance:com.guru.qa.test.MobilePageTest@1341870]" name="verifyprodSortTest" duration-ms="265" started-at="2018-06-25T13:45:41Z" description="verify product sort by Name" data-provider="getGuruMobilePageData" finished-at="2018-06-25T13:45:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Position]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Product Sort by Position
+]]>
+            </line>
+            <line>
+              <![CDATA[Product name is : SONY XPERIA]]>
+            </line>
+            <line>
+              <![CDATA[Product name is : IPHONE]]>
+            </line>
+            <line>
+              <![CDATA[Product name is : SAMSUNG GALAXY]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyprodSortTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.guru.qa.test.MobilePageTest@1341870]" name="tearDown" is-config="true" duration-ms="608" started-at="2018-06-25T13:45:41Z" finished-at="2018-06-25T13:45:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.guru.qa.test.MobilePageTest@1341870]" name="setUp" is-config="true" duration-ms="9190" started-at="2018-06-25T13:45:42Z" finished-at="2018-06-25T13:45:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyprodSortTest(java.lang.String)[pri:2, instance:com.guru.qa.test.MobilePageTest@1341870]" name="verifyprodSortTest" duration-ms="861" started-at="2018-06-25T13:45:51Z" description="verify product sort by Name" data-provider="getGuruMobilePageData" finished-at="2018-06-25T13:45:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Price]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Product Sort by Price
+]]>
+            </line>
+            <line>
+              <![CDATA[Product name is : SONY XPERIA]]>
+            </line>
+            <line>
+              <![CDATA[Product name is : SAMSUNG GALAXY]]>
+            </line>
+            <line>
+              <![CDATA[Product name is : IPHONE]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyprodSortTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.guru.qa.test.MobilePageTest@1341870]" name="tearDown" is-config="true" duration-ms="616" started-at="2018-06-25T13:45:52Z" finished-at="2018-06-25T13:45:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.guru.qa.test.MobilePageTest@1341870]" name="setUp" is-config="true" duration-ms="10286" started-at="2018-06-25T13:45:52Z" finished-at="2018-06-25T13:46:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="compare_Cost_From_List_and_Details_Page_Test()[pri:3, instance:com.guru.qa.test.MobilePageTest@1341870]" name="compare_Cost_From_List_and_Details_Page_Test" duration-ms="3492" started-at="2018-06-25T13:46:03Z" description="Verify that cost of product in list page and details page are equal" finished-at="2018-06-25T13:46:06Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Mobile Price  : $100.00]]>
+            </line>
+            <line>
+              <![CDATA[click on Mobile Xperia]]>
+            </line>
+            <line>
+              <![CDATA[Price on Details page is $100.00]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- compare_Cost_From_List_and_Details_Page_Test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.guru.qa.test.MobilePageTest@1341870]" name="tearDown" is-config="true" duration-ms="661" started-at="2018-06-25T13:46:06Z" finished-at="2018-06-25T13:46:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.guru.qa.test.MobilePageTest -->
+      <class name="com.guru.qa.test.CartPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.guru.qa.test.CartPageTest@153f17c]" name="setUp" is-config="true" duration-ms="9989" started-at="2018-06-25T13:44:47Z" finished-at="2018-06-25T13:44:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="cartTest()[pri:1, instance:com.guru.qa.test.CartPageTest@153f17c]" name="cartTest" duration-ms="4100" started-at="2018-06-25T13:44:57Z" description="Verify that you cannot add more product in cart than the product available in store 
+ Empty cart and verify Cart is empty" finished-at="2018-06-25T13:45:01Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Click on Add to Cart button for mobile Sony Xperia]]>
+            </line>
+            <line>
+              <![CDATA[Error message on Cart page is * The maximum quantity allowed for purchase is 500.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- cartTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.guru.qa.test.CartPageTest@153f17c]" name="tearDown" is-config="true" duration-ms="612" started-at="2018-06-25T13:45:01Z" finished-at="2018-06-25T13:45:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.guru.qa.test.CartPageTest -->
+      <class name="com.guru.qa.test.LaunchPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.guru.qa.test.LaunchPageTest@bf9759]" name="setup" is-config="true" duration-ms="7431" started-at="2018-06-25T13:45:02Z" finished-at="2018-06-25T13:45:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="launchPageTitleTest()[pri:1, instance:com.guru.qa.test.LaunchPageTest@bf9759]" name="launchPageTitleTest" duration-ms="9" started-at="2018-06-25T13:45:09Z" description="verify Launch Page title" finished-at="2018-06-25T13:45:09Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Launch Page Title is------> Home page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.guru.qa.test.LaunchPageTest@bf9759]" name="tearDown" is-config="true" duration-ms="602" started-at="2018-06-25T13:45:09Z" finished-at="2018-06-25T13:45:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.guru.qa.test.LaunchPageTest@bf9759]" name="setup" is-config="true" duration-ms="7454" started-at="2018-06-25T13:45:10Z" finished-at="2018-06-25T13:45:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="clickOnMobileTabTest()[pri:2, instance:com.guru.qa.test.LaunchPageTest@bf9759]" name="clickOnMobileTabTest" duration-ms="2451" started-at="2018-06-25T13:45:17Z" description="Click on Mobile Tab" finished-at="2018-06-25T13:45:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnMobileTabTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.guru.qa.test.LaunchPageTest@bf9759]" name="tearDown" is-config="true" duration-ms="618" started-at="2018-06-25T13:45:20Z" finished-at="2018-06-25T13:45:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.guru.qa.test.LaunchPageTest -->
+    </test> <!-- Log Verification Test Cases -->
+  </suite> <!-- Log Verification Test -->
+</testng-results>

@@ -1,0 +1,205 @@
+<html>
+<head>
+<title>TestNG:  Log Verification Test Cases</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Log Verification Test Cases</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>10/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Jun 25 19:14:01 IST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>125 seconds (125971 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.guru.qa.test.CartPageTest.cartTest()'><b>cartTest</b><br>Test class: com.guru.qa.test.CartPageTest<br>Test method: Verify that you cannot add more product in cart than the product available in store 
+ Empty cart and verify Cart is empty<br/>
+<a href="#Output-2567099" onClick='toggleBox("Output-2567099", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2567099" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2567099">
+Click on Add to Cart button for mobile Sony Xperia<br/>
+Error message on Cart page is * The maximum quantity allowed for purchase is 500.<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>com.guru.qa.test.CartPageTest@153f17c</td></tr>
+<tr>
+<td title='com.guru.qa.test.LaunchPageTest.clickOnMobileTabTest()'><b>clickOnMobileTabTest</b><br>Test class: com.guru.qa.test.LaunchPageTest<br>Test method: Click on Mobile Tab</td>
+<td></td>
+<td>2</td>
+<td>com.guru.qa.test.LaunchPageTest@bf9759</td></tr>
+<tr>
+<td title='com.guru.qa.test.MobilePageTest.compare_Cost_From_List_and_Details_Page_Test()'><b>compare_Cost_From_List_and_Details_Page_Test</b><br>Test class: com.guru.qa.test.MobilePageTest<br>Test method: Verify that cost of product in list page and details page are equal<br/>
+<a href="#Output-3626699" onClick='toggleBox("Output-3626699", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-3626699" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-3626699">
+Mobile Price  : $100.00<br/>
+click on Mobile Xperia<br/>
+Price on Details page is $100.00<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.guru.qa.test.MobilePageTest@1341870</td></tr>
+<tr>
+<td title='com.guru.qa.test.MyAccountPageTest.createAccount_shareWishlistTest()'><b>createAccount_shareWishlistTest</b><br>Test class: com.guru.qa.test.MyAccountPageTest<br>Test method: Create New Account and Share wishlist and Remove Item from wishList<br>Parameters: skamdl, kdwq, skndk@sndk.com<br/>
+<a href="#Output-3598540" onClick='toggleBox("Output-3598540", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-3598540" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-3598540">
+User Registration<br/>
+Registartion successful with mail idskndk@sndk.com<br/>
+Hello !!skamdl kdwq Your Wishlist has been shared. emailid skndk@sndk.com<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>com.guru.qa.test.MyAccountPageTest@17d0008</td></tr>
+<tr>
+<td title='com.guru.qa.test.MyAccountPageTest.createAccount_shareWishlistTest()'><b>createAccount_shareWishlistTest</b><br>Test class: com.guru.qa.test.MyAccountPageTest<br>Test method: Create New Account and Share wishlist and Remove Item from wishList<br>Parameters: sdl, nwlq, ndk@sn.com<br/>
+<a href="#Output-8580005" onClick='toggleBox("Output-8580005", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-8580005" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-8580005">
+User Registration<br/>
+Registartion successful with mail idndk@sn.com<br/>
+Hello !!sdl nwlq Your Wishlist has been shared. emailid ndk@sn.com<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>com.guru.qa.test.MyAccountPageTest@17d0008</td></tr>
+<tr>
+<td title='com.guru.qa.test.LaunchPageTest.launchPageTitleTest()'><b>launchPageTitleTest</b><br>Test class: com.guru.qa.test.LaunchPageTest<br>Test method: verify Launch Page title<br/>
+<a href="#Output-8536078" onClick='toggleBox("Output-8536078", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-8536078" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-8536078">
+Launch Page Title is------> Home page<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.guru.qa.test.LaunchPageTest@bf9759</td></tr>
+<tr>
+<td title='com.guru.qa.test.MobilePageTest.verifyMobilePageTitle()'><b>verifyMobilePageTitle</b><br>Test class: com.guru.qa.test.MobilePageTest<br>Test method: verify Mobile Page title</td>
+<td></td>
+<td>0</td>
+<td>com.guru.qa.test.MobilePageTest@1341870</td></tr>
+<tr>
+<td title='com.guru.qa.test.MobilePageTest.verifyprodSortTest()'><b>verifyprodSortTest</b><br>Test class: com.guru.qa.test.MobilePageTest<br>Test method: verify product sort by Name<br>Parameters: Name<br/>
+<a href="#Output-29635937" onClick='toggleBox("Output-29635937", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-29635937" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-29635937">
+Product Sort by Name
+<br/>
+Product name is : IPHONE<br/>
+Product name is : SAMSUNG GALAXY<br/>
+Product name is : SONY XPERIA<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.guru.qa.test.MobilePageTest@1341870</td></tr>
+<tr>
+<td title='com.guru.qa.test.MobilePageTest.verifyprodSortTest()'><b>verifyprodSortTest</b><br>Test class: com.guru.qa.test.MobilePageTest<br>Test method: verify product sort by Name<br>Parameters: Position<br/>
+<a href="#Output-6295623" onClick='toggleBox("Output-6295623", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-6295623" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-6295623">
+Product Sort by Position
+<br/>
+Product name is : SONY XPERIA<br/>
+Product name is : IPHONE<br/>
+Product name is : SAMSUNG GALAXY<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.guru.qa.test.MobilePageTest@1341870</td></tr>
+<tr>
+<td title='com.guru.qa.test.MobilePageTest.verifyprodSortTest()'><b>verifyprodSortTest</b><br>Test class: com.guru.qa.test.MobilePageTest<br>Test method: verify product sort by Name<br>Parameters: Price<br/>
+<a href="#Output-16063077" onClick='toggleBox("Output-16063077", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-16063077" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-16063077">
+Product Sort by Price
+<br/>
+Product name is : SONY XPERIA<br/>
+Product name is : SAMSUNG GALAXY<br/>
+Product name is : IPHONE<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.guru.qa.test.MobilePageTest@1341870</td></tr>
+</table><p>
+</body>
+</html>
